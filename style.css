@@ -1,6 +1,7 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -165,7 +166,8 @@ h4{
 }
 
 .col-2 .offer-img{
-    padding: 50px;
+    width: 100%;
+    height: auto;
 }
 
 small{
@@ -396,6 +398,10 @@ select:focus{
     cursor: pointer;
 }
 
+.product-grid:hover {
+    cursor: pointer;
+}
+
 .page-btn span:hover{
     background:#138808;
     color: white;
@@ -456,7 +462,6 @@ input:focus{
 
 
 /* Cart Name */
-
 .cart-page{
   margin: 80px auto;  
 }
@@ -473,7 +478,7 @@ table{
 
 th{
     text-align: left;
-    padding: 5px;
+    padding: 13px;
     color: #fff;
     background:#138808;
     font-weight: normal;
